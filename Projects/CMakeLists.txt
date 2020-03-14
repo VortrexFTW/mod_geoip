@@ -1,1 +1,1 @@
-add_subdirectory(gtac_geoip)
+add_subdirectory(mod_geoip)
