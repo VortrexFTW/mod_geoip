@@ -1,9 +1,5 @@
 disable_rtti()
 
-if(MSVC)
-	precompiled_header(pch)
-endif()
-
 include(maxminddb.cmake)
 
 file(GLOB_RECURSE SOURCES *.cpp *.h)
